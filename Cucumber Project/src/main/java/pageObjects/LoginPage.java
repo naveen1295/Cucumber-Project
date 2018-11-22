@@ -13,6 +13,7 @@ public class LoginPage extends Base {
 	public WebDriver driver;
 	Actions actions;
 	public Logger log;
+	String url = prop.getProperty("url");
 	
 
 	public LoginPage(WebDriver driver, Logger log) {
@@ -71,6 +72,10 @@ public class LoginPage extends Base {
 
 	
 	// **************Actions
+	
+	public void navigatetologinpage() {
+		driver.get(url);
+	}
 	public void enteruserid(String userid) {
 		entervalue(txtuserid,userid,"User ID Text Box");
 	}

@@ -48,7 +48,7 @@ public class POC extends Base {
 
 		// login as originator and generate a PO for with the workflow
 		// login
-		driver.get(url);
+		lp.navigatetologinpage();
 		driver.manage().window().maximize();
 		lp.enteruserid(userid);
 		lp.enterpassword(password);
