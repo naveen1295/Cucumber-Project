@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="62239" started-at="2018-11-20T05:04:57Z" finished-at="2018-11-20T05:05:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="62239" started-at="2018-11-20T05:04:57Z" finished-at="2018-11-20T05:05:59Z">
+      <class name="Dexus.QualityArc.POC">
+        <test-method status="PASS" signature="POCtest()[pri:0, instance:Dexus.QualityArc.POC@66a3ffec]" name="POCtest" duration-ms="62048" started-at="2018-11-20T05:04:57Z" finished-at="2018-11-20T05:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POCtest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Dexus.QualityArc.POC@66a3ffec]" name="teardown" is-config="true" duration-ms="160" started-at="2018-11-20T05:05:59Z" finished-at="2018-11-20T05:05:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Dexus.QualityArc.POC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
